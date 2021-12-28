@@ -1,0 +1,15 @@
+﻿<lib:BaseSepGeneric x:Class="WpfSEP.MainWindow" x:TypeArguments="lib:Student"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:WpfSEP.Lib"
+        xmlns:local="clr-namespace:WpfSEP"
+        xmlns:lib="clr-namespace:WpfSEP.Lib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Name="StackPanel">
+        <!--<lib:SepUserControl Title="Test title" MaxLength="30"></lib:SepUserControl> -->
+        <Button Name="OpenButton" Click="OpenButton_OnClick">Click</Button>
+    </StackPanel>
+</lib:BaseSepGeneric>
